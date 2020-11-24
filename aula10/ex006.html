@@ -18,14 +18,20 @@
    
 </head>
 <body>
-    <div id="area" onclick="clicar()">
+    <div id="area" onclick="clicar()" onmousenter="entrar()" onmouseout="sair()">
         interaja..
 
     </div>
     <script>
+        var a = window.document.getElementById('area')
         function clicar() {
-            var a = window.document.getElementById('area')
             a.innerText = 'Clicou!'
+        }
+        function entrar() {
+            a.innerText = ('Entrou!')
+        }
+        function sair() {
+            a.innerText = ('Saiu!')
         }
     </script>
 </body>
