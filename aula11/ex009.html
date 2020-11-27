@@ -3,30 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>O que você é?</title>
+    <title>Nacionalidade</title>
 </head>
 <body>
-    <h1>Tá perdido?</h1>
-País onde mora: <input type="search" value="escreva" id="escreva">você é?
-<input type="button" value="verificar" onclick="calcular()">
+    <h1>Verifique sua Nacionalidade</h1>
+    Brasileiro? <input type="text" name="txtnac" id="txtnac">
+    <input type="button" value="vereficar">
 <div id="res">resultado</div>
-<script>
-    function calcular() {
-        var txtBrasil = document.querySelector('input#escreva')
-        var res = document.querySelector('div#res')
-        var país = (txtBrasil.calcular)
-            res.innerHTML =`<p>sua nacionalidade é ${país}!</p>`
-            if (país = brasileiro) {
-             res.innerHTML += `<p>você é <strong>ESTRANGEIRO</strong></p>`
-    }
-                res.innerHTML +=`<p>parabéns</p>`
-    }
-    
-</script>
+        <script>
+            function vereficar() {
+                var txtn = document.querySelector('input#txtnac')
+                var res = document.querySelector('div#res')
+                var nac = txtn.value
+                res.innerHTML =`<p>seu país de origem é <strong>${nac}</strong></p>`
+                if (nac =="Brasil" || nac == "brasil")
+                res.innerHTML +=`você é BRASILEIRO`{
+                    res.innerHTML +=`você é estrangeiro`
+                }
+                
+            }
 
+        </script>
 </body>
 </html>
-
-
-
-
