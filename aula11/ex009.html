@@ -12,14 +12,14 @@
 <div id="res">resultado</div>
         <script>
             function confirmar() {
-                var txtnac = document.querySelector('input#txtnac')
+                var txtn = document.querySelector('input#txtnac')
                 var res = document.querySelector('div#res')
-                var nac = (txtnac.value)
+                var nac = (txtn.value)
                 res.innerHTML =`<p>seu país de origem é <strong>${nac}</strong></p>`
                 if (nac = "Brasil"){
-                res.innerHTML +=`você é BRASILEIRO`;
-                } else {
-                    res.innerHTML +=`você é estrangeiro`;
+                res.innerHTML +=`você é BRASILEIRO`
+                }else{
+                    res.innerHTML +=`você é estrangeiro`
                 }
                     
                 
