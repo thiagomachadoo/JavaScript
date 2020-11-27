@@ -8,18 +8,18 @@
 <body>
     <h1>Verifique sua Nacionalidade</h1>
     Brasileiro? <input type="text" name="txtnac" id="txtnac">
-    <input type="button" value="vereficar">
+    <input type="button" value="calcular">
 <div id="res">resultado</div>
         <script>
-            function vereficar() {
+            function calcular() {
                 var txtnac = document.querySelector('input#txtnac')
                 var res = document.querySelector('div#res')
                 var nac = (txtnac.value)
                 res.innerHTML =`<p>seu país de origem é <strong>${nac}</strong></p>`
-                if (nac =="Brasil" || nac == "brasil"){
-                res.innerHTML +=`você é BRASILEIRO`
+                if (nac = "Brasil"){
+                res.innerHTML +=`você é BRASILEIRO`;
                 } else {
-                    res.innerHTML +=`você é estrangeiro`
+                    res.innerHTML +=`você é estrangeiro`;
                 }
                     
                 
