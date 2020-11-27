@@ -12,14 +12,17 @@
 <div id="res">resultado</div>
         <script>
             function vereficar() {
-                var txtn = document.querySelector('input#txtnac')
+                var txtnac = document.querySelector('input#txtnac')
                 var res = document.querySelector('div#res')
-                var nac = txtn.value
+                var nac = (txtnac.value)
                 res.innerHTML =`<p>seu país de origem é <strong>${nac}</strong></p>`
-                if (nac =="Brasil" || nac == "brasil")
-                res.innerHTML +=`você é BRASILEIRO`{
+                if (nac =="Brasil" || nac == "brasil"){
+                res.innerHTML +=`você é BRASILEIRO`
+                } else {
                     res.innerHTML +=`você é estrangeiro`
                 }
+                    
+                
                 
             }
 
