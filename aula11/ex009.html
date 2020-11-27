@@ -6,7 +6,7 @@
     <title>O que você é?</title>
 </head>
 <body>
-    <p>Tá perdido?</p>
+    <h1>Tá perdido?</h1>
 País onde mora: <input type="search" value="escreva" id="escreva">você é?
 <input type="button" value="verificar" onclick="calcular()">
 <div id="res">resultado</div>
@@ -15,7 +15,7 @@ País onde mora: <input type="search" value="escreva" id="escreva">você é?
         var txtBrasil = document.querySelector('input#escreva')
         var res = document.querySelector('div#res')
         var país = (txtBrasil.calcular)
-                res.innerHTML =`<p>sua nacionalidade é ${país}!</p>`
+            res.innerHTML =`<p>sua nacionalidade é ${país}!</p>`
             if (país = brasileiro) {
              res.innerHTML += `<p>você é <strong>ESTRANGEIRO</strong></p>`
     }
