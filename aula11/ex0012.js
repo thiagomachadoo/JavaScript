@@ -8,3 +8,4 @@ if (hora < 12) {
 } else {
     console.log(`Boa Noite!!`)
 }
+//break é obrigatório, assim nao tera problemas com a continuidade de codigos
