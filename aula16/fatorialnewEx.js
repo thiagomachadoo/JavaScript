@@ -7,3 +7,4 @@ function fatorial(n) {
     }
 } 
 console.log(fatorial(5))
+//reforçar estudos de funções, javaScript funcional, objetos, modularização, Expressões regulare (RegEx), JSON, AJAX, NodejS, Ângula.
