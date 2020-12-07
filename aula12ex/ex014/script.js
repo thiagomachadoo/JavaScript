@@ -6,12 +6,13 @@ function carregar() {
     msg.innerHTML = `Agora são ${hora} horas`
     if (hora >= 0 && hora < 22) {
         //BOM DIA!
-        img.src = 'foto-manha.jpg'
+        img.src = '.jpg'
     } else if (hora >= 12 && hora < 18) {
         //BOA TARDE!
-        img.src = 'foto-tarde.jpg'
+        img.src = '.jpg'
     } else {
         //BOA NOITE!
-        img.src = 'foto-noite.jpg'
+        img.src = '.jpg'
     }
 }
+//fotos com erro, sem edição
