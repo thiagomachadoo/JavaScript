@@ -8,3 +8,4 @@ function m(multi=2, mm=3) {
 
 }
 console.log(m(4))
+//estudar e revisar: rendimento baixo
