@@ -10,3 +10,4 @@ var idade = 17;
 }
 //reforçar método
 //querySelector apenas um item na busca centralizado, querySelectorAll, todos os itens onde  bate com as especificações
+//introducao ao java
