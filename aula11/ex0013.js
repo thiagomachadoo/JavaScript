@@ -36,3 +36,4 @@ switch(diaSem) {
         console.log('[ERRO] Dia inválido')
         break
 }
+//break for stop the count
