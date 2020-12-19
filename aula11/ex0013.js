@@ -37,3 +37,4 @@ switch(diaSem) {
         break
 }
 //break for stop the count
+//reviisando evento de click em outro rep
