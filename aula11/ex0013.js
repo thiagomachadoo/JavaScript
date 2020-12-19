@@ -39,3 +39,4 @@ switch(diaSem) {
 //break for stop the count
 //reviisando evento de click em outro rep
 //função disparo de evento com split 18/12 calc clone
+//add novo ramo,calc com falha no master
